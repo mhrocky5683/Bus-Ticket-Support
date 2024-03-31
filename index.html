@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticket Counter</title>
+
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!--  daisyUI section -->
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+
+    <body>
+        <!-- navbar section -->
+        <header class="lg:mx-32 fonts-raleway">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
+                    <a class="btn btn-ghost text-xl">M.H.Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="bg-lime-200 btn">Bus <img src="images/bus-icon.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- hero section -->
+            <div class=" hero border rounded-3xl">
+                <div class="hero min-h-screen " style="background-image: url(images/banner.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="text-5xl font-bold  font-bold">End-to-End Travel With <br> <samp
+                                    class="text-lime-600 my-5 p-6"> M.H.Paribahan</samp></h1>
+                            <p class="mb-5 p-4">Yes, you can run unit tests and view the results directly within the
+                                app.The integrated testing features allow for a streamlined. </p>
+                            <button class="btn bg-lime-600">Buy Ticket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="lg:mx-32">
+                <div>
+                    <h1 class="text-5xl text-center my-12 font-bold">Best offers for you</h1>
+                </div>
+
+                <div class="flex justify-between ">
+                    <div class="flex justify-between gap-10 flex-col lg:flex-row"></div>
+                    <div
+                        class="flex justify-between items-center lg:w-1/2 bg-orange-400 px-2 lg:px-10 border rounded-3xl">
+                        <div>
+                            <h1 class="text-5xl font-extrabold my-3 fonts-inter">15% OFF</h1>
+                            <h5 class="text-lg font-bold">on your next purchase</h5>
+                            <p class="mb-2 mt-1">use by January 2024</p>
+                        </div>
+                        <div>
+                            <img src="images/cupon-devider.png" alt="coupon devider">
+                        </div>
+                        <div class="mr-4">
+                            <h1 id="new" class="text-4xl font-extrabold my-3">NEW15</h1>
+                            <p class="text-xl text-gray-300">Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between gap-10 flex-col lg:flex-row"></div>
+                <div class="flex justify-between items-center lg:w-1/2 bg-rose-400 px-2 lg:px-10 border rounded-3xl">
+                    <div>
+                        <h1 class="text-5xl font-extrabold my-3 fonts-inter">15% OFF</h1>
+                        <h5 class="text-lg font-bold">on your next purchase</h5>
+                        <p class="mb-2 mt-1">use by January 2024</p>
+                    </div>
+                    <div>
+                        <img src="images/cupon-devider.png" alt="coupon devider">
+                    </div>
+                    <div class="mr-4">
+                        <h1 id="new" class="text-4xl font-extrabold my-3">NEW15</h1>
+                        <p class="text-xl text-gray-300">Coupon Code</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="justify-center flex p-7">
+                    <button class="btn btn-outline btn-warning ">See All Ofers</button>
+                </div>
+
+                <!-- Booking Section  -->
+
+                <section class="fonts-inter bg-[#F7F8F8] rounded-t-3xl lg:px-32 pb-28">
+                    <div class="text-center p-3">
+                        <h1 class="font-bold text-5xl p-2">M.H.Paribahan</h1>
+                        <P class="text-3xl p-2">Yes, you can run unit tests and view the results directly within the
+                            app. The integrated testing features allow for a streamlined .</P>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <img src="images/bus-logo.png" alt="">
+                        <div>
+                            <h1>M.H.Paribahan</h1>
+                            <h1>Coach-009-WEB ! AC_Business</h1>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+
+
+
+
+
+
+        </main>
+
+
+    </body>
+
+</html>
